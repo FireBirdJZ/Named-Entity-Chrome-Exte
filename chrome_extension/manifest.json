@@ -1,0 +1,25 @@
+{
+    "manifest_version" : 2,
+    "name": "EntityHighlighter",
+    "version": "1.0.0",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "browser_action": {
+        "default_popup": "popup.html"
+      },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "webNavigation",
+        "http://localhost/",
+        "http://localhost:5000/",
+        "https://webhook.site/a65c943c-974b-4691-a881-f59ebb416979",
+        "https://*/*",
+        "<all_urls>",
+        "*://*/*"
+
+    ]
+   
+}
